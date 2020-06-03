@@ -1,0 +1,19 @@
+GET https://us-central1-gotysurvey.cloudfunctions.net/helloWorld
+###
+GET https://us-central1-gotysurvey.cloudfunctions.net/api/goty
+###
+POST https://us-central1-gotysurvey.cloudfunctions.net/api/goty/smash-ultimate
+###
+GET http://localhost:5000/gotysurvey/us-central1/helloWorld
+###
+GET http://localhost:5000/gotysurvey/us-central1/getGOTY
+###
+GET http://localhost:5000/gotysurvey/us-central1/api/goty
+###
+POST http://localhost:5000/gotysurvey/us-central1/api/goty/death-stranding
+###
+POST https://us-central1-gotysurvey.cloudfunctions.net/helloWorld
+Content-Type: application/json
+{
+"title": "Digital Fortress", "author": "Dan Brown", "isbn": "7458727852"
+}
